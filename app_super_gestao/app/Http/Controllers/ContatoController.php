@@ -13,6 +13,6 @@ class ContatoController extends Controller
      */
     public function contato()
     {
-        echo 'Contato';
+        return view('site.contato');
     }
 }
