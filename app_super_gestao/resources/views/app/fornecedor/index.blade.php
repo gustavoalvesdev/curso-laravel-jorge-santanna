@@ -10,7 +10,6 @@
 
     @forelse ($fornecedores as $indice => $fornecedor)
 
-        {{-- @dd($loop) --}}
         @dd($loop)
 
         Iteração atual: {{ $loop->iteration }}
